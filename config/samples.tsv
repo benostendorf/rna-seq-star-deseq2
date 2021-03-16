@@ -1,0 +1,9 @@
+sample	condition
+ctrl_01	untreated
+ctrl_02	untreated
+ctrl_03	untreated
+ctrl_04	untreated
+tx_01	treated
+tx_02	treated
+tx_03	treated
+tx_04	treated

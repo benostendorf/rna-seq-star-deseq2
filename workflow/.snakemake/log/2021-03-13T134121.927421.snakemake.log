@@ -1,0 +1,8 @@
+Workflow defines that rule get_genome is eligible for caching between workflows (use the --cache argument to enable this).
+Workflow defines that rule get_annotation is eligible for caching between workflows (use the --cache argument to enable this).
+Workflow defines that rule star_index is eligible for caching between workflows (use the --cache argument to enable this).
+Building DAG of jobs...
+MissingInputException in line 1 of /Users/bnostendorf/research/comp_tools/snakemake_workflows/rna-seq-star-deseq2/workflow/rules/trim.smk:
+Missing input files for rule cutadapt_pe:
+../data/raw/RNA_01_S1_R2_001.fastq
+../data/raw/RNA_01_S1_R1_001.fastq

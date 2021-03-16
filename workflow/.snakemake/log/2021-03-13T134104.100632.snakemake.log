@@ -1,0 +1,11 @@
+FileNotFoundError in line 16 of /Users/bnostendorf/research/comp_tools/snakemake_workflows/rna-seq-star-deseq2/workflow/Snakefile:
+[Errno 2] No such file or directory: 'config/samples.tsv'
+  File "/Users/bnostendorf/research/comp_tools/snakemake_workflows/rna-seq-star-deseq2/workflow/Snakefile", line 16, in <module>
+  File "/Users/bnostendorf/tools/miniconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 755, in read_table
+  File "/Users/bnostendorf/tools/miniconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+  File "/Users/bnostendorf/tools/miniconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+  File "/Users/bnostendorf/tools/miniconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+  File "/Users/bnostendorf/tools/miniconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+  File "/Users/bnostendorf/tools/miniconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 653, in pandas._libs.parsers.TextReader._setup_parser_source
